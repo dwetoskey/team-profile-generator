@@ -2,7 +2,7 @@ const generateTeamProfile = team => {
 
     const generatemanager = manager => {
 
-        return
+        return`
     
    
         <div class="tile is-parent is-vertical ">
@@ -22,12 +22,12 @@ const generateTeamProfile = team => {
                 </div>
 
             </div>
-            ;
+            `;
   
     };
 
     const generateengineer = engineer => {
-
+        return `
 
         <div class="tile is-parent is-vertical">
             <div class="tile is-child has-text-centered has-background-success box">
@@ -40,18 +40,18 @@ const generateTeamProfile = team => {
 
                     <div>
                         <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}"></a> </li>
-                        <li class="is-size-4">Github: <a href = "${enginner.getgit()}" target="_blank"></a></li>
+                        <li class="is-size-4">Github: <a href = "${engineer.getgit()}" target="_blank"></a></li>
                     </div>
                     
                 </div>
 
             </div>
-            ;
+            `;
 
     };
 
     const generateintern = intern => {
-
+        return`
         <div class="tile is-parent is-vertical">
             <div class="tile is-child has-text-centered has-background-success box">
                     
@@ -69,7 +69,7 @@ const generateTeamProfile = team => {
                 </div>
 
             </div>
-            ;
+            `;
 
     };
 
@@ -98,7 +98,7 @@ const generateTeamProfile = team => {
 module.exports = team => {
 
 
-    return
+    return`
 
 <!DOCTYPE html>
 <html lang="en">
@@ -129,5 +129,5 @@ module.exports = team => {
 </body>
 </html>
 
-    ;
+    `;
 }

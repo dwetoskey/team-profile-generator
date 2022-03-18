@@ -74,7 +74,7 @@ function run() {
         });
     }
 
-    function addengineeer() {
+    function addengineer() {
         inquirer.prompt ([
         
             {
