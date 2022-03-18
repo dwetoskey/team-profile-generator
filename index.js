@@ -113,7 +113,7 @@ function run() {
         
             {
                 type: "input",
-                name: "interernname",
+                name: "internname",
                 message: "Enter intern's name."
             },
 
