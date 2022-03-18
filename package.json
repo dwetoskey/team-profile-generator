@@ -1,4 +1,16 @@
 {
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repsitory": {
+    "type": "git",
+    "url": "git+https://github.com/dwetoskey/team-profile-generator.git"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "inquirer": "^8.2.1",
