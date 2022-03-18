@@ -15,7 +15,7 @@ const generateTeamProfile = team => {
                     </div>
 
                     <div>
-                        <li class="is-size-4">Email: <a href="mailto:${manager.getemail()}"></a> </li>
+                        <li class="is-size-4">Email: <a href="mailto:${manager.getemail()}">${manager.getemail()}</a> </li>
                         <li class="is-size-4">Office: ${manager.getoffice()}</li>
                     </div>
                     
@@ -39,8 +39,8 @@ const generateTeamProfile = team => {
                     </div>
 
                     <div>
-                        <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}"></a> </li>
-                        <li class="is-size-4">Github: <a href = "${engineer.getgit()}" target="_blank"></a></li>
+                        <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}">${engineer.getemail()}</a> </li>
+                        <li class="is-size-4">Github: <a href = "${engineer.getgit()}" target="_blank">${engineer.getgit()}</a></li>
                     </div>
                     
                 </div>
@@ -62,7 +62,7 @@ const generateTeamProfile = team => {
                     </div>
 
                     <div>
-                        <li class="is-size-4">Email: <a href="mailto:${intern.getemail()}"></a> </li>
+                        <li class="is-size-4">Email: <a href="mailto:${intern.getemail()}">${intern.getemail()}</a> </li>
                         <li class="is-size-4">School: ${intern.getschool()}</li>
                     </div>
                     
