@@ -11,20 +11,100 @@
 
 </head>
 
-<body class="has-background-primary">
+<body class="has-background-warning">
     <div class="container has-background-info">
-        <h1 class="has-text-primary-light">The Team</h1>
+        <h1 class="has-text-primary-light title is-1 has-text-centered">The Team</h1>
     </div>
+    <br>
+<div class="tile is-ancestor">
+    
+   
+    
+        <div class="tile is-parent is-vertical">
+            <div class="tile is-child has-text-centered has-background-success box">
+                
+                <div>
+                    <h1 class ="title is-2">${manager.getname()}</h1>
+                    <h1 class ="title is-3">${manager.getrole()}</h1>
+                    <h2 class ="title is-4">${manager.getid()}</h2> 
+                </div>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent has-background-success">
-            <div class="tile is-child">
+                <div>
+                    <li class="is-size-4">Email: <a href="mailto:${manager.getemail()}"></a> </li>
+                    <li class="is-size-4">Office: ${manager.getoffice()}</li>
+                </div>
                 
             </div>
 
         </div>
+
+        <div class="tile is-parent is-vertical">
+            <div class="tile is-child has-text-centered has-background-success box">
+                
+                <div>
+                    <h1 class ="title is-2">${engineer.getname()}</h1>
+                    <h1 class ="title is-3">${engineer.getrole()}</h1>
+                    <h2 class ="title is-4">${engineer.getid()}</h2> 
+                </div>
+
+                <div>
+                    <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}"></a> </li>
+                    <li class="is-size-4">Github: <a href = "${enginner.getgit()}" target="_blank"></a></li>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="tile is-parent is-vertical">
+            <div class="tile is-child has-text-centered has-background-success box">
+                
+                <div>
+                    <h1 class ="title is-2">${engineer.getname()}</h1>
+                    <h1 class ="title is-3">${engineer.getrole()}</h1>
+                    <h2 class ="title is-4">${engineer.getid()}</h2> 
+                </div>
+
+                <div>
+                    <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}"></a> </li>
+                    <li class="is-size-4">Github: <a href = "${enginner.getgit()}" target="_blank"></a></li>
+                </div>
+                
+            </div>
+
+        </div>
+        </div>
+
+<div class = "tile is-ancestor">
+
+        <div class="tile is-parent is-vertical">
+            <div class="tile is-child has-text-centered has-background-success box">
+                
+                <div>
+                    <h1 class ="title is-2">${engineer.getname()}</h1>
+                    <h1 class ="title is-3">${engineer.getrole()}</h1>
+                    <h2 class ="title is-4">${engineer.getid()}</h2> 
+                </div>
+
+                <div>
+                    <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}"></a> </li>
+                    <li class="is-size-4">Github: <a href = "${enginner.getgit()}" target="_blank"></a></li>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+ 
     </div>
-    
 </body>
 
 </html>
