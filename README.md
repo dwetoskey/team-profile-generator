@@ -1,5 +1,4 @@
 # Team-Profile-Generator
-  ![Github licence](https://img.shields.io/badge/Public Domain-License-blue)
   
   ## Description 
   This app allows you to create a profile of your company's team's employees. You can choose to add managers, engineers, and interns. After you pick a role for the employee, you can then enter information about them. When you're finished, the app will dynamically produce an html file that displays all of the information you've entered.
