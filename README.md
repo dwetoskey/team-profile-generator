@@ -15,7 +15,7 @@
   ## Installation 
   Clone the repository, install node,  install express, install jest, and install inquirer from the npm library.
   ## Usage 
-  Run the command "node index" from the command line.
+  Run the command "node index" from the command line. See the Screencastify embeded at the bottom of this readme for a demo of how to use this app.
   ## License 
   This project is licensed under Public Domain
   ## Contributing 
