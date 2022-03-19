@@ -40,7 +40,7 @@ const generateTeamProfile = team => {
 
                     <div>
                         <li class="is-size-4">Email: <a href="mailto:${engineer.getemail()}">${engineer.getemail()}</a> </li>
-                        <li class="is-size-4">Github: <a href = "${engineer.getgit()}" target="_blank">${engineer.getgit()}</a></li>
+                        <li class="is-size-4">Github: <a href = "https://github.com/${engineer.getgit()}" target="_blank">${engineer.getgit()}</a></li>
                     </div>
                     
                 </div>
